@@ -11,6 +11,7 @@
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.4",
         "livewire/volt": "^1.0",
+        "asantibanez/livewire-charts": "dev-l11-compatibility",
         "php-mqtt/laravel-client": "^1.5"
     },
     "require-dev": {
@@ -68,5 +69,11 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel-shift/livewire-charts.git"
+        }
+    ]
 }
