@@ -4,6 +4,6 @@
   </div>
   <div>
     <div class="text-xl font-medium text-black">Capteur de température</div>
-    <p class="text-gray-900">Temperature: <!-- <span wire:poll.visible.5s="updateTemperature" class="font-bold">{{ $temperature }} °C</span> --></p>
+    <p class="text-gray-900">Temperature: <span wire:poll.visible.5s="updateTemperature" class="font-bold">{{ $temperature }} °C</span> </p>
   </div>
 </div>

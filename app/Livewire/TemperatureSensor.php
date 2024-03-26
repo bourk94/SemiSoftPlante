@@ -25,7 +25,7 @@ class TemperatureSensor extends Component
 
     public function boot()
     {
-        // $this->updateTemperature();
+        $this->updateTemperature();
     }
 
     public function updateTemperature()
