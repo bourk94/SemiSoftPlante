@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="w3-row-padding w3-margin-bottom">
+    <div class="flex content-center w-6/12 mx-auto space-x-20   my-10">
         <livewire:TemperatureSensor />
         <livewire:HumiditySensor />
     </div>

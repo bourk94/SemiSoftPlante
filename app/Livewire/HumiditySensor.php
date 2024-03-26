@@ -24,7 +24,7 @@ class HumiditySensor extends Component
 
     public function boot()
     {
-        $this->updateHumidity();
+        // $this->updateHumidity();
     }
 
     public function updateHumidity()

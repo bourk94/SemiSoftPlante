@@ -1,10 +1,9 @@
-<div class="w3-half">
-    <div class="w3-container w3-red w3-padding-16">
-        <div class="w3-left"><i class="fa-solid fa-temperature-three-quarters w3-xxxlarge"></i></div>
-        <div class="w3-left">
-        <h4>Température</h4>
-        </div>
-        <div class="w3-clear"></div>
-        <h3 wire:poll.visible.5s="updateTemperature">{{ $temperature }} °C</h3>
-    </div>
+<div class="p-6 bg-red-500 rounded-xl shadow-md flex items-center w-6/12">
+  <div class="flex-shrink-0 mr-3">
+        <i class="fa-solid fa-5x fa-temperature-half"></i>
+  </div>
+  <div>
+    <div class="text-xl font-medium text-black">Capteur de température</div>
+    <p class="text-gray-900">Temperature: <!-- <span wire:poll.visible.5s="updateTemperature" class="font-bold">{{ $temperature }} °C</span> --></p>
+  </div>
 </div>
