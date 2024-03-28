@@ -12,4 +12,6 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
+Route::post('/upload', 'ImageController@upload');
+
 require __DIR__.'/auth.php';
