@@ -48,7 +48,7 @@ class Chart extends Component
     $this->temperature = $this->getTemperature();
     
     sleep(1);
-
+    
     $this->dispatch('dataLoaded');
     }
 }
